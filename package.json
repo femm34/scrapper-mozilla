@@ -1,0 +1,25 @@
+{
+  "name": "mozilla-hacks-scraper",
+  "version": "1.0.0",
+  "description": "Tarea profe Senen, by Belinda",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "json2csv": "^5.0.7",
+    "pdfkit": "^0.15.2",
+    "puppeteer": "^22.15.0",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [
+    "web-scraping",
+    "nodejs",
+    "mozilla-hacks",
+    "data-extraction"
+  ],
+  "author": "Belinda",
+  "license": "MIT"
+}
